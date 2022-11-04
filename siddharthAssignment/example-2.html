@@ -13,17 +13,22 @@
         let b;
         let c;
 
-        a=parseInt( prompt("enter first number"));
-        b=parseInt( prompt("enter second number"));
-        c=parseInt( prompt("enter third number"));
-
+        a=parseInt( prompt("enter first number for A"));
+        b=parseInt( prompt("enter second number for B"));
+        c=parseInt( prompt("enter third number for C"));
+      
         if (a>b){
-            console.log("a is greater than b")
+            console.log("A is greater than B = " +a +">"+"b"+b)
         }
-        else if (a>c){
-            console.log("")
+        else if (b>c){
+            console.log("b is greater than C = "+b)
         }
-        else if()
+        else if(a>c){
+            console.log("c is greater than a = "+c)
+        }
+        else{
+            console.log("c is greater than a and b")
+        }
 
 
 
