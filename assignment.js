@@ -66,7 +66,22 @@
     //     area=i*b;
     // document.write(area)
 
+
+
+    //   *assignment -06*
+
+
+    // let p=prompt("enter the 1st value");
+    //     p=parseInt(p);
+    // let r=prompt("enter the 2nd value");
+    //     r=prompt(r);
+    // let t=prompt("enter the 3rd value");
+    //     t=prompt(t);
+        
+    //     si=p*r*t/100
+    //     document.write(si)
+
+
+
+
       
-
-
-
