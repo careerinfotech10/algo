@@ -68,12 +68,3 @@
 
 // document.write("Amount is : "+simple)
 
-let num1=prompt("Enter first value");
-num1=parseInt(num1)
-
-if (num1>0){
-    document.write("Positive"+num1)
-}
-else {
-    document.write("Negative"+num1)
-}
