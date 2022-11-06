@@ -61,8 +61,6 @@
 // rate=parseInt(rate)
 // let tenure=prompt("Enter tenure in year");
 // tenure=parseInt(tenure)
-
 // let simple=(principle*rate*tenure)/100;
-
 // document.write("Amount is : "+simple)
 
