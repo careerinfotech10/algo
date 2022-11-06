@@ -1,0 +1,99 @@
+Today Session 04 Object and Array 
+--------------------------------------
+LAST SESSION ALGO ANAYLISIS.
+  i.time complexity 
+  ii.speace complexity   
+  Best Case  - 
+  Average Case 
+  Worst Case 
+  
+  Asymtomatics Notation 
+  i.Omega
+  ii.theta
+  iii.Big O 
+            Input
+			   linear 
+			   constant 
+			   quardiatic 
+			   cubic 
+
+What is Object?
+  it is reatime entity
+       mobile 
+	      
+       laptop 
+       car 
+	   Properities
+	   color:
+	   price:
+	   tyre: 
+	   
+	   methods:
+	       start
+		   acclaration
+		   breaking 
+		   
+		   
+		   
+	   
+	   
+       student 
+       teacher 	
+			i.property 
+			ii.methods (function)  	
+			
+How to create Object?
+i.we can create by literal 
+   let fruits="apple";
+   object have more than 1 values   
+   object can store values in key  and value pair format 
+   
+   let mobile =
+   {
+   ram:"8GB",
+   price:15000,
+   processor:"Snap-Dragon845",
+   storage:"128GB",
+   camera:"48MP",
+   battery:"5000MAH",
+   brand:"Realme"   
+   }
+   
+   console.log(mobile.ram);
+   
+   linear 
+   constant
+     O(1)   
+   quardiatic
+   cubic 
+   
+   
+ii. we can create object using new keyword.	
+      
+     let student=new Student("santosh");	  
+	 
+	 
+	 
+
+Array : 
+    
+    array is techniques to store multiple values in a single variable 
+
+example : 
+   let fruit="Apple";
+   let fruit=["Mango","Banana","Pine-Apple",10002];
+   
+   Terminilogy:
+      index -
+	  
+	  element
+
+     linear 
+	 constant 
+	 
+	 
+	 there are two type of array 
+	       
+	   single dimension 
+	   multi dimesion
+	   
