@@ -1,2 +1,4 @@
 let fruits=["Mango","Apple","Banana","Pineapple","Grapes"];
-console.log(fruits[0]);
+for(i=0;i<=4;i++){
+    console.log(fruits[i])
+}
