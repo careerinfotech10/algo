@@ -19,6 +19,6 @@ let student= [{
 ]
 
 for(let i=0;i<=2;i++){
-    document.write(student[i].Name," ","Rollno:"+student[i].rollN0," ","Section"+student[i].sec," ","Subject:"+student[i].subject);
+    document.write(student[i].Name,"<br>","Rollno:"+student[i].rollN0,"<br> ","Section"+student[i].sec,"<br> ","Subject:"+student[i].subject,"<br>","<br>");
 }
 

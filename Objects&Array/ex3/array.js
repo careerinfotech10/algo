@@ -1,7 +1,7 @@
 
 
-let blueColors =['blue','skyblue','paleblue','royalblue','slateblue'];
+let Colors =['blue','skyblue','paleblue','royalblue','slateblue'];
 
-blueColors[2] = 'darkblue';
+Colors[2] = 'darkblue';
 
-document.write(blueColors);
+document.write (Colors);

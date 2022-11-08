@@ -4,7 +4,7 @@ let student={
     Name:'Vishakha',
     rollN0:234,
     sec:'B',
-    subject:'IIM',
+    subject:'IIM'
     
 }
 
