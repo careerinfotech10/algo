@@ -10,7 +10,7 @@
 // document.write("Addition of two numbers are:"+sum)
 
 
-                                              //.........Assignment-2...........
+                                             //.........Assignment-2...........
 
 
 // let a=prompt("Enter First Number")
@@ -62,14 +62,8 @@
 
                                             //.........Assignment-6...........
 
-let p=10;
-let r=50;
-let t=60;
-let SI=p*r*t;
-document.write("Simple-Interest:"+SI)
-
-
-
-
-
-
+// let p=10;
+// let r=50;
+// let t=60;
+// let SI=p*r*t;
+// document.write("Simple-Interest:"+SI)
