@@ -15,6 +15,15 @@
 // num2=parseInt(num2)
 // let num3=prompt("Enter third number");
 // num3=parseInt(num3)
+// if (num1>num2 && num1>num3){
+//     document.write("num1 is greatest "+num1)
+// }
+// else if (num2>num1 && num2>num3){
+//     document.write("num2 is greatest "+num2)
+// }
+// else {
+//     document.write("num3 is greatest "+num3)
+// }
 
 //Example no : 3
 
@@ -28,17 +37,6 @@
 // }
 // else {
 //     document.write("loss "+sum)
-// }
-
-
-// if (num1>num2 && num1>num3){
-//     document.write("num1 is greatest "+num1)
-// }
-// else if (num2>num1 && num2>num3){
-//     document.write("num2 is greatest "+num2)
-// }
-// else {
-//     document.write("num3 is greatest "+num3)
 // }
 
 // Example no : 4
@@ -63,17 +61,6 @@
 // rate=parseInt(rate)
 // let tenure=prompt("Enter tenure in year");
 // tenure=parseInt(tenure)
-
 // let simple=(principle*rate*tenure)/100;
-
 // document.write("Amount is : "+simple)
 
-let num1=prompt("Enter first value");
-num1=parseInt(num1)
-
-if (num1>0){
-    document.write("Positive"+num1)
-}
-else {
-    document.write("Negative"+num1)
-}
