@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array of Object</title>
+</head>
+<body>
+    <script>
+        let mobile=[
+            {
+                brand:"Oppo",
+                price:21499,
+                ram:"8GB",
+                rom:"128GB",
+            },
+            {
+                brand:"Vivo",
+                price:22999,
+                ram:"8GB",
+                rom:"256GB"
+            },
+            {
+                brand:"Poco",
+                price:20499,
+                ram:"6GB",
+                rom:"256GB"
+            }
+        ]
+        for(let j=0;j<3;j++)
+        {
+        document.write(mobile[j].brand,"<br>",mobile[j].price,"<br>",mobile[j].ram,"<br>",mobile[j].rom,"<br>","<br>")
+        }
+    </script>
+</body>
+</html>
