@@ -55,6 +55,4 @@
     //  let input=prompt("enter the number")
     //  document.write(days[input])
 
-     
     
-  
