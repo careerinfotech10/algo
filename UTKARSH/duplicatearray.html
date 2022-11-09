@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let dup = 0;
+        let number = parseInt(prompt("Enter number from the array : "));
+        let num = [10,8,77,66,8,8,77];
+        for(let j=0;j<num.length;j++){
+        if(number == num[j]){
+        dup += 1;
+        }
+        }
+        if(dup > 1){
+        document.write("<h3>"+number+" is occurred "+dup+" times in the array!!</h3>");
+        }
+        else if(dup == 1){
+        document.write("<h3>"+number+" is occurred only "+dup+" time in the array!!</h3>");
+        }
+        else{
+        document.write("<h3>"+number+" is not prsent in the array!!</h3>");
+        }
+        </script>
+</body>
+</html>

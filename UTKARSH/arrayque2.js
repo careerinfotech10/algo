@@ -4,13 +4,15 @@ array=[10 , 8 , 77 , 66, 55, 8 , 8]
 
 // we have to use loop here
 
+let count=1;
+
 for (let i=0 ; i<7 ; i++){
 
-for(let j=i+1; j<7 ; j++){
+for(let j=1; j<7 ; j++){
 
-    if(array[i]===array[j])
-    console.log(array[i]===array[j])
+    if(array[j]===array[i])
+   console.log(array[j] , count)
+   count++;
 }
 
-return -1
 }
