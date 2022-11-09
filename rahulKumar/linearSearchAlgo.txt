@@ -1,0 +1,17 @@
+step 1: Start
+step2: read item, index ,array
+step3:set loc=0
+step4: while index<=array length repeat step 5 and 6
+step5: compare data[index] and item
+       if data[index]=item
+	   set loc=index
+	   goto step:7
+	   else
+	   
+step 6:increse index +1
+step 7:if loc=0
+		print item not found
+			else
+			print item found at loc
+			
+step8:Stop
