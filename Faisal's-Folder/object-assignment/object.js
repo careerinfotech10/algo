@@ -13,7 +13,7 @@
 // }
 // document.write("Brand : "+Phone.Brand + "<br>" + "Model :"+Phone.Model+ "<br>" +"Ram :"+Phone.Ram +"<br>"+ "Storage :"+Phone.Storage +"<br>"+ "Display:"+Phone.Display +"<br>"+ "Colour :"+Phone.Colour +"<br>"+ "Price:"+Phone.Price)
 
-// ..................Q-2.........................
+// ..................Q-2.........................      
 
 // let Employees=[
 // {
@@ -45,6 +45,8 @@
 // let days=["Sun","Mon","Tue","Wed","Thu","Fri","SAT",]
 // let input=prompt("Enter-Number")
 // document.write(days[input])
+
+
 
 
 
