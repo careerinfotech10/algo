@@ -1,0 +1,28 @@
+duplicate num algo:
+
+step1: Start
+
+step2: read array
+
+step3: set i=0,j=0,result={}
+
+step4: while i is less than array length 
+		set count=0
+       repeat step 5
+	   
+step5: while j is less than array length
+		repeat step 6
+		
+step 6: compare data[i] & data[j]
+			if data[i]=data[j]
+			increase count+1
+			store data[i] and count in result
+			increse j+1
+			if j=array length GOTO step4
+			
+step7: Print result
+
+step8: STOP
+
+			
+		
