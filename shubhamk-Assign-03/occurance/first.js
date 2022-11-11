@@ -8,6 +8,9 @@ if(number == array1[i]){
 dup =dup + 1;
 }i++;
 }
+
+
+
 if(dup > 1){
 document.write(+number+" is occurred "+dup+" times in the array");
 }
