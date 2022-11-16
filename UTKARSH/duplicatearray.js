@@ -1,10 +1,9 @@
 function countDuplicates(array) {
     const counts = {};
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < 7; i++) {
      let element = array[i];
       counts[element] = (counts[element] || 0) + 1;
-      // ( 0 || 0) this will provide zero value that is 0; but ( 1 || 0) this will provide answere of 1;
-      // 0 is used to represent false , and 1 is used to represent true
+ 
     }
     return counts;
   }
