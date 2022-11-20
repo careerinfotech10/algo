@@ -26,3 +26,4 @@ function binarySearch(array, item){
     item=400;
     let index=binarySearch(array, item)
     console.log(index);
+    
