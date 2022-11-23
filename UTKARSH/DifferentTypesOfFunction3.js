@@ -12,3 +12,14 @@ u=() =>{
 console.log("i am  arrow function you can write down me WITHOUT USING FUNCTION AND FUNCTION NAME")
 }
 u();
+
+
+s=(k)=>{
+console.log(k);
+}
+s(7);
+
+j=(x)=>{
+    console.log(x)
+}
+j("ajinkya");

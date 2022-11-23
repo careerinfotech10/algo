@@ -14,3 +14,8 @@ let k=function fun(){
 
 }
 k();
+// advanced function by using expression
+let j = function addition(a,b){
+    console.log(a+b);
+}
+j(2,3);

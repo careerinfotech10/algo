@@ -1,4 +1,5 @@
-function calculator(a , b , myfun){
+// higher order function
+/*function calculator(a , b , myfun){
 
     myfun(a, b)
 }
@@ -20,4 +21,16 @@ function div(i,j){
 calculator(9, 3, addition);
 calculator(9, 3 , sub);
 calculator(9, 3, mult);
-calculator(9, 3, div);
+calculator(9, 3, div); */
+
+function calculator(a,b,c){
+    c(a,b)
+}
+function add(x,y){
+    console.log("addition of two number is : "+ parseInt(x+y));
+}
+function division(x,y){
+    console.log("division of two number is : "+ parseInt(x/y));
+}
+calculator(3, 4 , add);
+calculator(9, 3, division);

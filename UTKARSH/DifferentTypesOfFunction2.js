@@ -15,3 +15,13 @@ u=function(){
 console.log(" hii i am anonymous function - without name")
 }
 u();
+
+a=function(x){
+    console.log("my name is :" + x )
+}
+a("ajinkya");
+
+s=function(n){
+    console.log(n)
+}
+s(5);
