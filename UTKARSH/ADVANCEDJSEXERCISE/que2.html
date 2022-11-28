@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advanced js exercise question 2</title>
+</head>
+<body>
+
+    <script>/*
+        define a class salary and described as below:
+        data members:name,address,phone,subject,specialization,monthly salary, income tax.
+        members method :
+        i) to accept the details of a teacher including the monthly salary
+        ii)to display the details of the teacher.
+        iii)to compute the annual income tax as 5 % of the annual salary above 1,75,000.
+        write the main method to create object of the class and call the above member method.
+        */
+       
+class salary{
+    name ;address; phone; subjSpec; mSalary;  iTax;
+    input()
+    {
+    this.name=prompt("enter your this.name:")
+    this.address=prompt("enter your this.address :")
+    this.phone=prompt("enter your this.phone :")
+    this.subjSpec=prompt("enter your this.subject specialization :")
+    this.mSalary=prompt("enter your this.mSalary :")
+
+    } 
+
+    display(){
+        document.write("NAME:"+this.name+"<br>");
+        document.write("ADDRESS:"+this.address+"<br>");
+        document.write("YOUR PHONE NUMBER:"+this.phone+"<br>");
+        document.write("SPECIALIZATION :"+this.subjSpec+"<br>");
+        document.write("MONTHLY SALARY IS"+this.mSalary+"<br>");
+    }
+    
+    calculate(){
+        let 
+       annualSalary ;
+       annualSalary =12*this.mSalary;
+       if(annualSalary>175000)
+       this.iTax=5/100.0*(annualSalary-175000)
+       else
+       this.iTax=0;
+       document.write("income tax : ", this.iTax+"<br>")
+    }
+}
+ let m1=new salary();
+ m1.input();
+ m1.calculate();
+ m1.display();
+
+    </script>
+</body>
+</html>

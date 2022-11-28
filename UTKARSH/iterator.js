@@ -1,0 +1,1 @@
+//iterator - which repeat task until it did not get condition false
